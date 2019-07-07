@@ -340,7 +340,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (ServerPolyLine == null) {
                 lineOptions.addAll(serverPoints);
                 lineOptions.width(2);
-                lineOptions.color(Color.RED);
+                lineOptions.color(Color.GREEN);
                 lineOptions.geodesic(true);
 
                 ServerPolyLine = mMap.addPolyline(lineOptions);
