@@ -74,7 +74,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     // A default location (Sydney, Australia) and default zoom to use when location permission is
     // not granted.
     private final LatLng mDefaultLocation = new LatLng(-33.8523341, 151.2106085);
-    private static final int DEFAULT_ZOOM = 20;
+    private static final int DEFAULT_ZOOM = 15;
     private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     private boolean mLocationPermissionGranted;
     private boolean mInternetPermissionGranted;
@@ -528,7 +528,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         List<LatLng> curr_list = polylineTrace.getPoints();
         curr_list.add(latLon_current);
         polylineTrace.setPoints(curr_list);
-        mMap. moveCamera(CameraUpdateFactory.newLatLng(latLon_current));
+     //   mMap. moveCamera(CameraUpdateFactory.newLatLng(latLon_current));
         if ( mSaveTraceLocation) {
             UploadCurrentPosition(location.getLatitude(), location.getLongitude());
         }
