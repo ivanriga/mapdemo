@@ -1,7 +1,7 @@
 # mapdemo
 Installed on Android Studio 3.3.
 Server set up:
-1. Import SQL archive from /php
+1. Import SQL archive from /php  ( php version 5.6.40)
 2. add *.php files to web site (test site http://mapdemo.atwebpages.com/)
 
 Client ID: 3087854
