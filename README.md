@@ -1,4 +1,22 @@
 # mapdemo
+Installed on Android Studio 3.3.
+Server set up:
+1. Import SQL archive from /php
+2. add *.php files to web site (test site http://mapdemo.atwebpages.com/)
+
+Client ID: 3087854
+Login Email: ivanriga@yahoo.com
+
+System Login
+Use the following address to log in our system: https://cp1.awardspace.net/beta/
+
+Run instructions:
+Main menu options:
+1. Start write trace/stop write trace - to start /stor writing new position on server
+2.Server route /stop server - get positions from server/ stop positions from server.
+3. Settings - set web site address.
+
+
 
 Develop the Android application with following requirements
 
@@ -12,7 +30,7 @@ The location should leave a trail of blue color on the map.
 
 The location should be submitted once in a second
 
-The submission should be performed using "POST" request. 
+The submission should be performed using "POST" request.  ( on test site only "GET" used)
 
 The request format may be defined by the developer
 
@@ -34,12 +52,7 @@ The request format may be defined by the developer
 
 5. Test web server for the application need to be supplied. It has no specific requirements and may be implemented using any language for test purposes.
 
-6. Bonus points
 
-The location should be submitted disregarding phone and application state, e.g. "battery save", "doze", background etc.
 
-7. Submission
-
-        The assignment should be submitted as github repository with clear build and run instructions. 
 
  
